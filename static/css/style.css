@@ -1,0 +1,235 @@
+/* BODY*/
+* {
+    margin     : 0;
+    padding    : 0;
+}
+html {
+    height: 100%;
+    width : 100%;
+}
+body {
+    height     : 100%;
+    width      : 100%;
+    overflow-y: hidden;
+}
+/* Word Wrap*/
+div.col {
+  word-wrap: break-word !important;
+}
+/* Scroll Bar Show */
+.c-div-scroll-hover {
+  overflow-y: hidden !important;
+}
+.c-div-scroll-hover:hover {
+  overflow-y: auto !important;
+}
+
+/* Materialize Tabs*/
+ul.tabs {
+  overflow: hidden;
+}
+
+/* Login Page */
+.c-login-bg {
+    background-image: url("../images/matrix.jpg") !important;
+    background-color: #cccccc !important;
+}
+
+/* Notfound Page */
+.c-notfound-bg {
+    background-image: url("../images/matrix_virtual.jpg") !important;
+    background-color: #cccccc !important;
+}
+
+/* Nav Bar*/
+.nav-wrapper ul li a {
+  display: block !important;
+}
+
+/* top menu links */
+.c-menu-dropdown {
+  margin-top:20px !important;
+}
+
+.c-menu-dropdown li a {
+  color: red !important;
+}
+
+/* Main Layout */
+.c-ticker-div {
+  background-color: #FFF !important;
+  top: 64px !important;
+  bottom: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  position: fixed !important;
+}
+
+.c-content-div {
+  margin-left: 16.667% !important;
+  margin-right: 16.667% !important;
+  top: 64px !important;
+  bottom: 0 !important;
+  position: fixed !important;
+}
+
+.c-notification-div {
+  background-color: #FFF !important;
+  top: 64px !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  position: fixed !important;
+}
+
+/* Common */
+.c-position-fixed {
+  position: fixed;
+}
+
+.c-block-inline {
+  display: inline-block !important;
+}
+
+.c-margin-0 {
+  margin: 0 !important;
+}
+
+.c-padding-0 {
+  padding: 0 !important;
+}
+
+.c-padding-bottom-10 {
+  padding-bottom: 10px !important;
+}
+
+.c-padding-top-10 {
+  padding-top: 10px !important;
+}
+
+.c-padding-left-10 {
+  padding-left: 10px !important;
+}
+
+.c-padding-right-10 {
+  padding-right: 10px !important;
+}
+
+.c-padding-top-20 {
+  padding-top: 20px !important;
+}
+
+.c-padding-left-20 {
+  padding-left: 20px !important;
+}
+
+.c-padding-right-20 {
+  padding-right: 20px !important;
+}
+
+.c-margin-left-10 {
+  margin-left: 10px !important;
+}
+
+.c-margin-right-10 {
+  margin-right: 10px !important;
+}
+
+.c-margin-top-10 {
+  margin-top: 10px !important;
+}
+
+.c-margin-bottom-10 {
+  margin-bottom: 10px; !important;
+}
+
+.c-margin-top-20 {
+  margin-top: 20px !important;
+}
+
+.c-no-pointer {
+  cursor: text !important;
+}
+.c-form {
+  padding-top 10px  !important;
+  padding-bottom: 10px !important;
+}
+.c-form .input-field {
+  margin-top: 0 !important;
+}
+
+/* Colors */
+.c-red {
+  color: #D32F2F !important;
+}
+
+/* Projects*/
+.c-project-tile {
+  height: 150px;
+  overflow-y: hidden;
+}
+.c-project-tile:hover {
+  overflow-y: auto;
+}
+/* Data Tables */
+
+.dataTables_filter {
+  display: none;
+}
+.dataTables_wrapper > div:first-child{
+  display: none;
+}
+.search-wrapper {
+	transition: margin .25s ease;
+	margin-right: 28px;
+	margin-top: 8px;
+}
+
+.search-wrapper input#search {
+	display: block;
+	font-size: 16px;
+	font-weight: 300;
+	width: 100%;
+	height: 45px;
+	margin: 0;
+	border: 0;
+}
+
+.search-wrapper i.material-icons {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.search-wrapper input#search:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+/* User List Avatar Size */
+.c-avatar-list-size {
+  height: 64px !important;
+  width: 64px !important;
+}
+
+.c-avatar-select-size {
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.c-avatar-li-size {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.mdl-button--raised {
+  background-color: #D32F2F !important;
+}
+
+
+/* Notification Bar */
+.c-li-notification:hover {
+  background-color: #E0E0E0 !important;
+}

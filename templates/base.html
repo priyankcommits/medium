@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <title> { Medium } </title>
+  <link rel="stylesheet" href="/static/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/static/css/materialize.min.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body class="grey lighten-2">
+  <nav>
+    <div class="nav-wrapper green darken-1">
+      <a href="#" id="title-text" class="c-no-pointer center brand-logo">{ Medium }</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+      </ul>
+    </div>
+  </nav>
+  <div class="">
+    <div class="row">
+      <div class="col s1">
+      </div>
+      <div class="col s10">
+        {{ template "content" .}}
+      </div>
+      <div class="col s1">
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="/static/js/materialize.min.js"></script>
+  <script>
+$(document).ready(function () {
+  // Initialize collapse button
+  $(".button-collapse").sideNav();
+});
+  </script>
+</body>
+</html>

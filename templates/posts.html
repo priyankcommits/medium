@@ -1,0 +1,10 @@
+{{ define "content" }}
+<div class="row">
+  {{$urls := .url_patterns}}
+  {{ range .posts }}
+  <div class="col s12 card">
+    <h5><a href='{{add_params $urls.POST_VIEW_PATH "postid" .ID.Hex }}'>{{.Text }}</a></h5> <h6 class="right"> by {{.Nickname}} on {{.Time}} </h6>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
